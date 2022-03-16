@@ -1,0 +1,39 @@
+{
+  "schemaId": "dnp:user:v1.json",
+  "schemaVersion": 1,
+  "dataVersion": 0,
+  "data": {
+    "username": "zihao",
+    "age": 88,
+    "high-school": "school03",
+    "description": "8b384716-dba7-47cb-9d35-503462b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac8b384716-dba7-47cb-9d35-503462ab1fac",
+    "college": "school2",
+    "address": {
+      "country": "US",
+      "state": "MA",
+      "city": "Boston"
+    },
+    "birthday": {
+      "year": 1990,
+      "month": 1,
+      "day": 1
+    },
+    "phones": [
+      {
+        "phoneNumberType": "cell",
+        "phoneNumberValue": "123-456-7890"
+      },
+      {
+        "phoneNumberValue": "234-5678-333"
+      },
+      {
+        "phoneNumberType": "home",
+        "phoneNumberValue": "234-5678-901"
+      }
+    ],
+    "hobbies": [
+      "basketball",
+      "ski"
+    ]
+  }
+}

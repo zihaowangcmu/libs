@@ -1,0 +1,20 @@
+# not working...
+kind: Pod
+apiVersion: v1
+metadata:
+  name: zihao-csi
+spec:
+  containers:
+    - name: nginx
+      image: k8s.gcr.io/nginx-slim:0.8
+      ports:
+        - containerPort: 80
+          name: web
+      volumeMounts:
+        - name: www
+          mountPath: /usr/share/nginx/html # should match one from what we defined in spec.volumes below
+  volumes:
+    - name: www
+      persistentVolumeClaim:
+        claimName: zihao-csi # using the PVC generated from snapshot
+
